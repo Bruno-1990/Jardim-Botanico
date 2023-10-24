@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;    
+    font-family: sans-serif;
+}
+
+.limited{
+    width: 100%;
+    min-width: 320px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.topo, .rodape{
+    background-color: #1D6E4D;
+    width: 100%;
+    padding: 15px 0;
+    color: #fff;
+    text-align: center;
+    font-family: bold;
+    font-size: 1.5rem; 
+}
+p{
+    text-align: justify;
+    line-height: 1.7rem;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.area {
+    width: calc(100% - 70px);
+    margin: 20px 35px;
+}
+.apresentacao img, .area p, .fotos {
+    width: 100%;
+    margin: 15px 0;
+    min-width: 300px;
+}
+.fotos{
+    display: flex;
+           
+}
+
+.galeria img{
+    width: calc((100% / 3) - 3px);
+    margin: 0 1.5px;
+    
+}
